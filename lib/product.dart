@@ -17,13 +17,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      // floatingActionButton: FloatingActionButton.extended(
-      //   backgroundColor: colorBlue,
-      //   splashColor: Color.fromARGB(255, 82, 128, 255),
-      //   onPressed: () {},
-      //   label: Text('Add Product'),
-      //   icon: Icon(Icons.add),
-      // ),
       appBar: AppBar(
         leading: Icon(Icons.arrow_back_ios_new_outlined, color: Colors.white),
         title: Text(
